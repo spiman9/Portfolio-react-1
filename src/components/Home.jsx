@@ -2,13 +2,25 @@ import React from 'react'
 import HeroImage from './../assets/heroImage.png';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
+import{Typewriter} from "react-simple-typewriter"
 
 const Home = () => {
+    
   return (
-    <div name="home" className='md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 pb-4 md:pt-0'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl  sm:text-7xl font-bold text-white'>I'm a Back Stack Developer</h2>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 pb-4 md:pt-0 z-0'>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 md:flex-row'>
+            <div className='flex flex-col justify-center h-full w-full'>
+                <h2 className='text-4xl  sm:text-5xl font-bold text-white '>I'm a 
+                <span><Typewriter
+                    words={[' FrontEnd Developer', ' BackEnd-Developer']}
+                    loop={Infinity}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                    delaySpeed={1000}
+                    deleteSpeed={50}
+                /></span>
+                </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolorum culpa tenetur voluptates velit, ut in cumque molestiae. Accusantium optio ea itaque esse quod adipisci!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iusto nihil porro quam harum. Veniam.
