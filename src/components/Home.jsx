@@ -13,7 +13,7 @@ const Home = () => {
                 <div className='h-24 pt-2'>
                 <h2 className='text-4xl  sm:text-5xl font-bold text-white'>I'm a 
                 <span className=' text-green-600 text-4xl'><Typewriter
-                    words={[' Creative Coder,'  , " Web Enthusiast",' FrontEnd Developer', ' BackEnd-Developer' , " Python Developer" , " Machine Learning Fanatic" ," Problem Solver"  ," Chess Lover" ]}
+                    words={[' Creative Coder'  , " Web Enthusiast",' FrontEnd Developer', ' BackEnd-Developer' , " Python Developer" , " Machine Learning Fanatic" ," Problem Solver"  ," Chess Lover" ]}
                     loop={Infinity}
                     cursor
                     cursorStyle="|"
