@@ -10,9 +10,9 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-40 pb-4 md:pt-0 z-0'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 md:flex-row'>
             <div className='flex flex-col justify-center h-full w-full'>
-                <div className='h-24 pt-2 md:h-0 md:pt-0'>
+                <div className='h-24 pt-2'>
                 <h2 className='text-4xl  sm:text-5xl font-bold text-white'>I'm a 
-                <span><Typewriter
+                <span className=' text-green-600'><Typewriter
                     words={[' FrontEnd Developer', ' BackEnd-Developer']}
                     loop={Infinity}
                     cursor
