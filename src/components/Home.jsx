@@ -12,8 +12,8 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full w-full'>
                 <div className='h-24 pt-2'>
                 <h2 className='text-4xl  sm:text-5xl font-bold text-white'>I'm a 
-                <span className=' text-green-600'><Typewriter
-                    words={[' FrontEnd Developer', ' BackEnd-Developer' , " Python Developer" , " Machine Learning Enthusiast"]}
+                <span className=' text-green-600 text-4xl'><Typewriter
+                    words={[' Creative Coder,'  , " Web Enthusiast",' FrontEnd Developer', ' BackEnd-Developer' , " Python Developer" , " Machine Learning Fanatic" ," Problem Solver"  ," Chess Lover" ]}
                     loop={Infinity}
                     cursor
                     cursorStyle="|"
