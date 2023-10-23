@@ -8,6 +8,7 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg"
 
 import codeDecoder from "../assets/portfolio/img1.png"
 import tourimg from "../assets/portfolio/tour-img.png"
+import clock from "../assets/portfolio/clock.png"
 
 const PortFolio = () => {
 
@@ -45,6 +46,13 @@ const PortFolio = () => {
             src: tourimg,
             demo: "https://tour-frontend.netlify.app/",
             code: "https://github.com/spiman9/Tour-Website",
+        },
+        {
+            id: 3 ,
+            name: "JavaScript Clock" ,
+            src: clock,
+            demo: "https://javascript-clocky.netlify.app/",
+            code: "https://github.com/spiman9/JavaScript-Clock",
         },
     ]
   return (
