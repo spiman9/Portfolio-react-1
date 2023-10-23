@@ -54,6 +54,7 @@ const PortFolio = () => {
             demo: "https://javascript-clocky.netlify.app/",
             code: "https://github.com/spiman9/JavaScript-Clock",
         },
+        // yepse nopse
     ]
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black via-black to-gray-800 w-full text-white px-4 pt-6">
