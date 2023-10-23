@@ -8,6 +8,10 @@ import reactImage   from '../assets/react.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import python from '../assets/python.png'
+import django from '../assets/django.png'
+import mysql from '../assets/mysql.png'
+import c from '../assets/c.png'
+import cplusplus from '../assets/cplusplus.png'
 
 const Experience = () => {
 
@@ -65,14 +69,38 @@ const Experience = () => {
             src: python,
             title: "Python",
             style: "shadow-yellow-400"
+        },
+        {
+            id : 10,
+            src: django,
+            title: "Django",
+            style: "shadow-green-800"
+        },
+        {
+            id : 11,
+            src: mysql,
+            title: "MySQL",
+            style: "shadow-orange-500"
+        },
+        {
+            id : 12,
+            src: c,
+            title: "C",
+            style: "shadow-blue-50"
+        },
+        {
+            id : 13,
+            src: cplusplus,
+            title: "C++",
+            style: "shadow-blue-400"
         }
     ]
   return (
-    <div name="experience" className=' bg-gradient-to-b from-black via-black to-gray-800 w-full sm:h-screen pt-28'>
+    <div name="experience" className='bg-gradient-to-b from-black via-black to-gray-800 w-full sm:h-screen pt-28 '>
         <div className=' max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 inline'>Experience</p>
-                <p className='py-6'>These are the technologies I have worked upon</p>
+                <p className='text-2xl py-6'>These are the technologies and languages that I have worked upon</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-12 sm:px-0 '>

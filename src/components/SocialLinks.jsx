@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Linkedln <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/pritham-baswani-579497205/",
       style: "rounded-tr-md",
     },
     {
@@ -54,7 +54,7 @@ const SocialLinks = () => {
           <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] ${style}`}>
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex justify-between items-center w-full text-white "
               download={download}
               target="_blank"
               rel="noreferrer" 

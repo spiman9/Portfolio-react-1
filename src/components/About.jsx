@@ -9,13 +9,21 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className='text-xl mt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus deleniti minima est pariatur ipsam perspiciatis error soluta laudantium eaque similique explicabo magnam debitis repudiandae distinctio, exercitationem, iure deserunt animi. Soluta cumque at, est nesciunt temporibus neque ab sunt beatae earum rerum minus ipsam ullam voluptas corporis? Laborum, mollitia quam!
+            <p className='text-2xl mt-5'>
+            Programming has always been my interest in life. I am technology enthusiast
+pursuing a bachelor in computer science and Engineering. I believe in the
+thought that the things that challenge you are the ones that improves you. 
             </p>
-
             <br />
 
-            <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate sequi nihil at accusamus ab? Est ea id rerum alias sapiente quis omnis, at corporis quos aliquam cum, deserunt impedit repellendus. Provident, sed reiciendis placeat quis cumque dignissimos dolorem labore qui minima ex, aperiam quasi modi dolorum incidunt, libero sunt tenetur!</p>
+            <p className='text-2xl mt-5'>I am
+looking forward to learning new skills that will both enrich and help me grow. I
+have good problem solving skills, good at coding and likes exploring the new
+things. I am Team-oriented personality, dedicated team player and enjoys
+working closely with others</p>
+
+            <br />
+            <p className='text-2xl mt-4'>Believes in the strategy of learning and applying.</p>
         </div>
     </div>
   )
