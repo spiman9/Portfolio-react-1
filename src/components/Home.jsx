@@ -7,7 +7,7 @@ import{Typewriter} from "react-simple-typewriter"
 const Home = () => {
     
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 pb-4 md:pt-0 z-0'>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-40 pb-4 md:pt-0 z-0'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 md:flex-row'>
             <div className='flex flex-col justify-center h-full w-full'>
                 <h2 className='text-4xl  sm:text-5xl font-bold text-white '>I'm a 
