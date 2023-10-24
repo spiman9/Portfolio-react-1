@@ -15,7 +15,9 @@ function App() {
       <PortFolio />
       <Experience/>
       <Contact/>
-
+      <footer className="text-center text-2xl text-white bg-gradient-to-b from-black to-gray-800 p-4">
+        <p>©Made with ⚡ by PBG</p>
+      </footer>
       <SocialLinks />
     </>
   );

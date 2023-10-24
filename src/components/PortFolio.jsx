@@ -1,14 +1,15 @@
 import React from 'react'
 // import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
-import installNode from "../assets/portfolio/installNode.jpg"
+// import installNode from "../assets/portfolio/installNode.jpg"
 // import reactParallax from "../assets/portfolio/reactParallax.jpg"
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
-import reactWeather from "../assets/portfolio/reactWeather.jpg"
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
+// import reactWeather from "../assets/portfolio/reactWeather.jpg"
 
 
 import codeDecoder from "../assets/portfolio/img1.png"
 import tourimg from "../assets/portfolio/tour-img.png"
 import clock from "../assets/portfolio/clock.png"
+import todo from "../assets/portfolio/todo.png"
 
 const PortFolio = () => {
 
@@ -21,17 +22,31 @@ const PortFolio = () => {
         //     id: 2,
         //     src: reactParallax,
         // },
+        // {
+        //     id:4,
+        //     src: reactSmooth,
+        // },
+        // {
+        //     id: 5,
+        //     src: reactWeather,
+        // },
+        // {
+        //     id: 6,
+        //     src: installNode,
+        // },
         {
-            id:4,
-            src: reactSmooth,
+            id: 4 ,
+            name: "React Todo" ,
+            src: todo,
+            demo: "https://crud-todo-pbg.netlify.app/",
+            code: "https://github.com/spiman9/CRUD---React---TODO",
         },
         {
-            id: 5,
-            src: reactWeather,
-        },
-        {
-            id: 6,
-            src: installNode,
+            id: 3 ,
+            name: "JavaScript Clock" ,
+            src: clock,
+            demo: "https://javascript-clocky.netlify.app/",
+            code: "https://github.com/spiman9/JavaScript-Clock",
         },
         {
             id: 1 ,
@@ -46,13 +61,6 @@ const PortFolio = () => {
             src: tourimg,
             demo: "https://tour-frontend.netlify.app/",
             code: "https://github.com/spiman9/Tour-Website",
-        },
-        {
-            id: 3 ,
-            name: "JavaScript Clock" ,
-            src: clock,
-            demo: "https://javascript-clocky.netlify.app/",
-            code: "https://github.com/spiman9/JavaScript-Clock",
         },
 
     ]
