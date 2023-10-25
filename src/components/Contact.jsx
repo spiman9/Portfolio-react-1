@@ -12,7 +12,13 @@ const Contact = () => {
                 <p className='py-6  text-2xl'>Submit the form below to get in touch with me</p>
             </div>
 
-            <motion.div className='flex justify-center items-center'>
+            <motion.div className='flex justify-center items-center' initial = {{opacity: 0 , scale:0}}
+            whileInView={{
+                opacity: 1 , scale:1
+            }}
+            transition={{
+                duration: 0.6,
+            }}>
                 <form action="https://getform.io/f/44c4175d-7852-49b7-af6c-be0aa54bbe1d" className='flex flex-col w-full md:w-1/2' method='POST'>
                     <input type="text" name="name" id="" placeholder='Enter Your Name' className='p-2 bg-transparent border-2 rounded-md focus:outline-none' />
                     <input type="email" name="email" id="" placeholder='Enter Your Email' className='p-2 bg-transparent border-2 rounded-md focus:outline-none my-3' />
