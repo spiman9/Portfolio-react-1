@@ -12,9 +12,9 @@ const Contact = () => {
                 <p className='py-6  text-2xl'>Submit the form below to get in touch with me</p>
             </div>
 
-            <motion.div className='flex justify-center items-center relative' initial = {{opacity: 0 , right:-1250}}
+            <motion.div className='flex justify-center items-center relative' initial = {{opacity: 0 , scale:0}}
             whileInView={{
-                opacity: 1  , right:0
+                opacity: 1  , scale:1
             }}
             transition={{
                 duration: 0.6,
