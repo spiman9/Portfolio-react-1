@@ -12,7 +12,10 @@ import django from '../assets/django.png'
 import mysql from '../assets/mysql.png'
 import c from '../assets/c.png'
 import cplusplus from '../assets/cplusplus.png'
+import mongodb from '../assets/mongodb.png'
+import java from '../assets/java.png'
 
+import { motion } from 'framer-motion'
 const Experience = () => {
 
     const techs =[
@@ -93,6 +96,18 @@ const Experience = () => {
             src: cplusplus,
             title: "C++",
             style: "shadow-blue-400"
+        },
+        {
+            id : 15,
+            src: java,
+            title: "Java",
+            style: "shadow-red-400"
+        },
+        {
+            id : 14,
+            src: mongodb,
+            title: "MongoDB",
+            style: "shadow-green-400"
         }
     ]
   return (
@@ -107,10 +122,17 @@ const Experience = () => {
 
                 {
                     techs.map(({id , src , title , style}) => (
-                        <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${style}`} key={id}>
+                        <motion.div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${style}`} key={id}
+                        initial = {{opacity: 0 , scale:0}}
+                        whileInView={{
+                            opacity: 1 , scale:1
+                        }}
+                        transition={{
+                            duration: 0.2,
+                        }}>
                             <img src={src} alt="" className='w-20 mx-auto'/>
                             <p className='mt-4 text-center'>{title}</p>
-                        </div>
+                        </motion.div>
                     ))
                 }
 

@@ -3,6 +3,7 @@ import HeroImage from './../assets/heroImage.jpg';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 import{Typewriter} from "react-simple-typewriter"
+import { motion } from 'framer-motion';
 
 const Home = () => {
     
@@ -43,9 +44,16 @@ const Home = () => {
                 </div>
             </div>
 
-            <div >
-                <img className='rounded-2xl mx-auto w-2/3 md:w-full md:mt-20 hover:shadow-lg hover:shadow-white hover:rotate-1 transition-all duration-300' src={HeroImage} alt="my profile" />
-            </div>
+            <motion.div initial = {{opacity: 0 , scale:0}}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>
+                <img className='rounded-2xl mx-auto w-2/3 md:w-full md:mt-20 hover:shadow-lg hover:shadow-white duration-300'
+                src={HeroImage} alt="my profile" />
+            </motion.div>
         </div>
     </div>
   )

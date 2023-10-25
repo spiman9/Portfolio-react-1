@@ -1,4 +1,7 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+
+
 
 const About = () => {
   return (
@@ -9,21 +12,41 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className='text-2xl mt-5'>
+            <div>
+            <motion.div className='text-2xl mt-5' initial = {{opacity: 0 , scale:0}}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>
             Programming has always been my interest in life. I am technology enthusiast
 pursuing a bachelor in computer science and Engineering. I believe in the
 thought that the things that challenge you are the ones that improves you. 
-            </p>
+            </motion.div>
             <br />
 
-            <p className='text-2xl mt-5'>I am
+            <motion.div className='text-2xl mt-5' initial = {{opacity: 0 , scale:0}}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>I am
 looking forward to learning new skills that will both enrich and help me grow. I
 have good problem solving skills, good at coding and likes exploring the new
 things. I am Team-oriented personality, dedicated team player and enjoys
-working closely with others</p>
+working closely with others</motion.div>
 
             <br />
-            <p className='text-2xl mt-4'>Believes in the strategy of learning and applying.</p>
+            <motion.div className='text-2xl mt-4' initial = {{opacity: 0 , scale:0}}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>Believes in the strategy of learning and applying.</motion.div>
+        </div>
         </div>
     </div>
   )
