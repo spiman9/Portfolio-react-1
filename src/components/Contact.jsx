@@ -12,9 +12,9 @@ const Contact = () => {
                 <p className='py-6  text-2xl'>Submit the form below to get in touch with me</p>
             </div>
 
-            <motion.div className='flex justify-center items-center' initial = {{opacity: 0 , scale:0}}
+            <motion.div className='flex justify-center items-center relative' initial = {{opacity: 0 , right:-1250}}
             whileInView={{
-                opacity: 1 , scale:1
+                opacity: 1  , right:0
             }}
             transition={{
                 duration: 0.6,
@@ -23,7 +23,15 @@ const Contact = () => {
                     <input type="text" name="name" id="" placeholder='Enter Your Name' className='p-2 bg-transparent border-2 rounded-md focus:outline-none' />
                     <input type="email" name="email" id="" placeholder='Enter Your Email' className='p-2 bg-transparent border-2 rounded-md focus:outline-none my-3' />
                     <textarea name="message" id="" rows="10" className='p-2 bg-transparent border-2 rounded-md focus:outline-none' placeholder='Enter your message'></textarea>
-                    <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mx-auto flex items-center rounded-md hover:scale-110 duration-300 my-8 tracking-tight hover:tracking-widest hover:font-bold hover:bg-gradient-to-b hover:from-green-500 hover:to-green-800'>
+                    <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mx-auto flex items-center rounded-md hover:scale-110 duration-300 my-8 tracking-tight hover:tracking-widest hover:font-bold hover:bg-gradient-to-b hover:from-green-500 hover:to-green-800'
+                        initial = {{opacity: 0 , scale:0}}
+                        whileInView={{
+                            opacity: 1 , scale:1
+                        }}
+                        transition={{
+                            duration: 0.6,
+                        }}
+                    >
                         Lets Talk
                     </button>
                 </form>

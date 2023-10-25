@@ -24,12 +24,24 @@ const Home = () => {
                 /></span>
                 </h2>
                 </div>
-                <p className=' text-gray-400 pt-5 max-w-md text-2xl'>
+                <motion.p className=' text-gray-400 pt-5 max-w-md text-2xl' initial = {{opacity: 0 , scale:0}}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>
                 Hello Guys, I am Pritham Baswani Giryalkar
-                </p>
-                <p className='text-gray-400 py-2 max-w-md text-2xl'>
+                </motion.p>
+                <motion.p className='text-gray-400 py-2 max-w-md text-2xl' initial = {{opacity: 0 , scale:0 }}
+                whileInView={{
+                    opacity: 1 , scale:1
+                }}
+                transition={{
+                    duration: 0.6,
+                }}>
                 I am technology enthusiast pursuing a bachelor in computer science and Engineering.  
-                </p>
+                </motion.p>
 
 
     
