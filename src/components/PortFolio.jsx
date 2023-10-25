@@ -4,8 +4,7 @@ import React from 'react'
 // import reactParallax from "../assets/portfolio/reactParallax.jpg"
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 // import reactWeather from "../assets/portfolio/reactWeather.jpg"
-
-
+//From here there are main links
 import codeDecoder from "../assets/portfolio/img1.png"
 import tourimg from "../assets/portfolio/tour-img.png"
 import clock from "../assets/portfolio/clock.png"
